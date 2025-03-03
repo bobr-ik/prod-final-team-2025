@@ -1,0 +1,180 @@
+{
+	"info": {
+		"_postman_id": "faf4eb7f-a253-4d69-b434-a980c8ce4b5f",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28384708"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:8000/test",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsImV4cGlyZXNfaW4iOjYwMCwidHlwIjoiSldUIn0.eyJjbGllbnRfaWQiOiJlMGMwYTJiZi0wNWIzLTQ0ZjktOTU2OS01ZTQyYTE1ZDBjMTMifQ.CMXbHYDTqNMqP9JZNBOvnm6kpVAXPoDLQ-AKRkNT8WY",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/test",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"test"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/users/auth/refresh",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"refresh_token\": \"eyJhbGciOiJIUzI1NiIsImV4cGlyZXNfaW4iOjYwNDgwMCwidHlwIjoiSldUIn0.eyJjbGllbnRfaWQiOiI4NTBjYzRjNi00YTMyLTQ1YjUtOGQ4Ni00YTEyZDY1OTk0MDUiLCJ0b2tlbl9pZCI6InVLZXBKS1BDb2taS2RpV0xXT2FvUkdqUXJ1eElSUVBXIn0.aXRwaLJ33z1sYVN9M3EnPB_yWK8YhF9J32Ix52504lQ\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/users/auth/refresh",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"users",
+						"auth",
+						"refresh"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:80/users/auth",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"login\": \"Alex3\",\r\n    \"password\": \"Sample.!)2\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:80/users/auth",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "80",
+					"path": [
+						"users",
+						"auth"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://prod-team-25-7si7srok.final.prodcontest.ru/users",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"Alex32\",\r\n    \"email\": \"alex3@2test.sample\",\r\n    \"password\": \"Sample.!)2\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://prod-team-25-7si7srok.final.prodcontest.ru/users",
+					"protocol": "http",
+					"host": [
+						"prod-team-25-7si7srok",
+						"final",
+						"prodcontest",
+						"ru"
+					],
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:80/users",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"Alex3\",\r\n    \"email\": \"alex3@test.sample\",\r\n    \"password\": \"Sample.!)2\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:80/users",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "80",
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
