@@ -1,8 +1,9 @@
 ## Admins
 
-
-emails
-> admin@example.com
+{
+    'email': 'admin@example.com',
+    'password': 'adminadmin
+}
 
 > admin1@example.com
 
