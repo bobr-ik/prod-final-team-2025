@@ -9,4 +9,35 @@ emails
 > admin2@example.com
 
 password
-> Adminnn15)!
+> adminadmin
+
+
+## Students
+
+
+emails
+> student@example.com
+
+> student1@example.com
+
+> student2@example.com
+
+password
+> studentstudent
+
+
+
+## Guests
+
+
+emails
+> guest@example.com
+
+> guest1@example.com
+
+> guest2@example.com
+
+> guest3@example.com
+
+password
+> guestguest
