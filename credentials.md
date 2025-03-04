@@ -2,44 +2,74 @@
 ```json
 {
     'email': 'admin@example.com',
-    'password': 'adminadmin
+    'password': 'adminadmin'
 }
 ```
 
-> admin1@example.com
+```json
+{
+    'email': 'admin1@example.com',
+    'password': 'adminadmin'
+}
+```
 
-> admin2@example.com
-
-password
-> adminadmin
+```json
+{
+    'email': 'admin2@example.com',
+    'password': 'adminadmin'
+}
+```
 
 
 ## Students
 
-
-emails
-> student@example.com
-
-> student1@example.com
-
-> student2@example.com
-
-password
-> studentstudent
+```json
+{
+    'email': 'student@example.com',
+    'password': 'studentstudent'
+}
+```
+```json
+{
+    'email': 'student1@example.com',
+    'password': 'studentstudent'
+}
+```
+```json
+{
+    'email': 'student2@example.com',
+    'password': 'studentstudent'
+}
+```
 
 
 
 ## Guests
 
+```json
+{
+    'email': 'guest@example.com',
+    'password': 'guestguest'
+}
+```
 
-emails
-> guest@example.com
+```json
+{
+    'email': 'guest1@example.com',
+    'password': 'guestguest'
+}
+```
 
-> guest1@example.com
+```json
+{
+    'email': 'guest2@example.com',
+    'password': 'guestguest'
+}
+```
 
-> guest2@example.com
-
-> guest3@example.com
-
-password
-> guestguest
+```json
+{
+    'email': 'guest3@example.com',
+    'password': 'guestguest'
+}
+```
