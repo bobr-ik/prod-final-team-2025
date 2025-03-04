@@ -1,9 +1,10 @@
 ## Admins
-
+```json
 {
     'email': 'admin@example.com',
     'password': 'adminadmin
 }
+```
 
 > admin1@example.com
 
