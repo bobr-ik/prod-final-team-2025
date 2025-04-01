@@ -1,6 +1,3 @@
 [submodule "backend"]
 	path = backend
-	url = git@gitlab.prodcontest.ru:team-25/test.git
-[submodule "mobile"]
-	path = mobile
-	url = git@gitlab.prodcontest.ru:team-25/androidapp.git
+	url = https://github.com/bobr-ik/prod-final-team-backend.git
